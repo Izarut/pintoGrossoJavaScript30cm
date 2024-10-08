@@ -1,6 +1,6 @@
-import { defineType } from "sanity"
+import { defineType, defineField} from "sanity"
 
-export const pessoa = defineType({
+export const endereco = defineType({
     name: 'endereco',
     type: 'document',
     title: 'endereco',
