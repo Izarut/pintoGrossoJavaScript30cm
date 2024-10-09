@@ -31,6 +31,10 @@ export const pessoa = defineType({
             type:'string'
         }),
         defineField({
+            name: "tamanho_do_pinto",
+            type: "number"
+        }),
+        defineField({
             name:'imagemPerfil',
             title:'imagem de perfil',
             type:'image'
